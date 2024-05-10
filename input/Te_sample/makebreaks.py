@@ -55,7 +55,7 @@ def gaussian(rowcol,proportion):
       elif len(Te.shape) ==1:
         g[i] = max(g[i], gaussian1d[i])
       else:
-        print "Error!"
+        print("Error!")
         raise SystemExit
   return g
 

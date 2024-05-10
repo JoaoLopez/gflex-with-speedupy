@@ -9,6 +9,9 @@
 
 import os.path
 import sys
+
+sys.path.append(os.path.dirname(__file__))
+
 from base import *
 from f1d import *
 from f2d import *
